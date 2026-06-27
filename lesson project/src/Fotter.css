@@ -1,0 +1,146 @@
+.footerSection {
+  width: 100%;
+  padding: 60px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  gap: 60px;
+}
+
+.footerCol {
+  flex: 1;
+}
+
+.footerCol img {
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.footerCol h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.footerCol ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerCol ul li {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.footerCol ul li:hover {
+  color: #0069ff;
+}
+.bottomBar {
+  width: 100%;
+  background: linear-gradient(135deg, #3a7bd5, #6a5acd);
+  padding: 20px 0;
+}
+
+.bottomContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomContainer p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.bottomRight {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.socialIcons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+.signUpBtn {
+  background: #fff;
+  color: #3a7bd5;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.signUpBtn:hover {
+  background: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    text-align: center;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 20px;
+  }
+
+  .footerCol {
+    flex: none;
+    width: 100%;
+  }
+  .bottomContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 16px;
+  }
+
+  .bottomContainer p {
+    font-size: 12px;
+    flex: 1 1 100%;
+    text-align: left;
+  }
+
+  .bottomRight {
+    flex: 1 1 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .socialIcons {
+    gap: 12px;
+  }
+
+  .socialIcons img {
+    width: 18px;
+    height: 18px;
+  }
+}
