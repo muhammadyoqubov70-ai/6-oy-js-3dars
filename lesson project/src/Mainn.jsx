@@ -1,12 +1,11 @@
 import styles from "./Main.module.css";
-import aboutImg from "../assets/about.png";
-import icon1 from "../assets/icon1.png";
-import icon2 from "../assets/icon2.png";
-import icon3 from "../assets/icon3.png";
-import avatar1 from "../assets/avatar1.png";
-import avatar2 from "../assets/avatar2.png";
-import email from "../assets/email.png";
-
+import aboutImg from "./assets/about.png";
+import icon1 from "./assets/icon1.png";
+import icon2 from "./assets/icon2.png";
+import icon3 from "./assets/icon3.png";
+import avatar1 from "./assets/avatar1.png";
+import avatar2 from "./assets/avatar2.png";
+import email from "./assets/email.png";
 function Main() {
   return (
     <>

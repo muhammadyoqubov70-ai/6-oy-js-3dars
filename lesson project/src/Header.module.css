@@ -1,0 +1,157 @@
+.header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
+
+.navList a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #444;
+}
+
+.navList a:hover {
+  color: #0069ff;
+}
+
+.active {
+  color: #0069ff;
+  font-weight: 600;
+}
+
+.btn {
+  background: #0069ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0052cc;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.heroLeft {
+  max-width: 480px;
+}
+
+.tag {
+  color: #0069ff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.heroLeft h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
+}
+
+.blue {
+  color: #0069ff;
+}
+
+.desc {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.heroButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroRight img {
+  width: 100%;
+  max-width: 520px;
+}
+
+.playBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+  cursor: pointer;
+}
+
+.playIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #0069ff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .heroLeft h1 {
+    font-size: 28px;
+  }
+
+  .navList {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+}

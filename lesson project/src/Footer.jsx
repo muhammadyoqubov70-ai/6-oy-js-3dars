@@ -1,10 +1,9 @@
 import styles from "./Footer.module.css";
-import logoImg from "../assets/logo.svg";
-import Facebook from "../assets/Facebook.png";
-import Twitter from "../assets/twitter.png";
-import Youtube from "../assets/youtube.png";
-import Instagram from "../assets/instagram.png";
-
+import logoImg from "./assets/LOGO.svg";
+import Facebook from "./assets/Facebook.png";
+import Twitter from "./assets/twitter.png";
+import Youtube from "./assets/youtube.png";
+import Instagram from "./assets/instagram.png";
 function Footer() {
   return (
     <>

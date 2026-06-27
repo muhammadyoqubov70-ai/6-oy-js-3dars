@@ -1,18 +1,15 @@
-import React from "react";
+import Header from "./Header";
+import Main from "./Mainn";
+import Footer from "./Footer";
 
 function App() {
-  let [state, setState] = useState(1);
-  console.log("men app coppninetman render bolayapman", state);
-  function increment() {
-    setState(++state);
-    console.log(state);
-  }
-  function decremnt() {
-    setState(--state);
-    console.log(state);
-  }
-  function reset() {
-    setState(1);
-    console.log(state);
-  }
+  return (
+    <>
+      <Header />
+      <Main></Main>
+      <Footer></Footer>
+    </>
+  );
 }
+
+export default App;
